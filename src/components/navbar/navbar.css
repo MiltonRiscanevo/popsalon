@@ -1,0 +1,20 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 21, 175);
+    color: white;
+    font-weight: bold;
+    height: 100px;
+}
+.icons_navbar{
+    width: 20%;
+    margin: 20px;
+}
+.container_options{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px;
+    padding-left: 20px;
+}
