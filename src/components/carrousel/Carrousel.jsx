@@ -73,7 +73,7 @@ const Carrousel = () => {
 
   return (
     <div className='main'>
-        <h1>POP SALON BEAUTY HAIR</h1>
+        <h1>POP SALON BY JESE</h1>
         <div className='carrousel_container' ref={slideshow}>
             {Images.map((item)=>(
                 <div key={item.id} className='slide'>

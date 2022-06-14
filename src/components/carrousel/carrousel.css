@@ -63,8 +63,13 @@
 .izquierda{
     left: 0;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     .title_slide{
         position: relative;
     }
+    .image{
+        height: 45vh;
+        vertical-align: top;
+    }
+
 }

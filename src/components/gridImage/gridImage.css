@@ -1,0 +1,28 @@
+.biography{
+    margin: 10px;
+    display: flex;
+}
+.background1{
+    background-image: url("https://images.unsplash.com/photo-1654986966034-8f06a66f280a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    width: 30%;
+}
+.background2{
+    background-image: url("https://images.unsplash.com/photo-1655138629387-23ba023004a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 70%;
+}
+.auth{
+    margin: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 80px;
+}
+.background2 p{
+    color: rgb(190, 101, 158);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px;
+    text-align: justify;
+}
