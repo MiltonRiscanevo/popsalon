@@ -11,8 +11,8 @@ function App() {
       <Navbar/>
       <Carrousel/>
       <div className='section_1'>
-        <GridImage/>
-        <Auth/>
+        <GridImage className='sub_1'/>
+        <Auth className='sub_2'/>
       </div>
       
     </div>

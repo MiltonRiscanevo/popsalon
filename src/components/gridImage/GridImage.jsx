@@ -14,7 +14,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function GridImage() {
   return (
     <ImageList
-      sx={{ width: "50%", height: 450, margin:2}}
+      sx={{ width: "100%", height: 450, margin:"2px"}}
       variant="quilted"
       cols={4}
       rowHeight={121}
