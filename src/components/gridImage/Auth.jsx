@@ -15,8 +15,8 @@ const Auth = () => {
 
   return (
     <div className='biography' data-aos="fade-up">
-        <div className='background1'></div>
-        <div className='background2'>
+        <div className='background1'data-aos="fade-up" ></div>
+        <div className='background2'data-aos="zoom-in">
             <h1 className='auth' data-aos="slide-left">Pop Salon </h1>
             <p data-aos="slide-rigth">Beauty artist to colombian people</p>
             <p data-aos="slide-up">  
