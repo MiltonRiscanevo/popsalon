@@ -7,6 +7,9 @@
     font-weight: bold;
     height: 150px;
 }
+.links{
+    text-decoration: none;
+}
 .icons_navbar{
     width: 20%;
     margin: 20px;

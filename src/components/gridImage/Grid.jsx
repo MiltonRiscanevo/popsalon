@@ -17,15 +17,15 @@ const Grid = () => {
   return (
     <div className='grid_container'>
         <img src={Popsalon1} alt="pop1" className='wile' />
-        <img src={Popsalon2} alt="pop2" className='wile'/>
+        <img src={Popsalon2} alt="pop2" className='tall'/>
         <img src={Popsalon2} alt="pop3"  />
         <img src={Popsalon3} alt="pop4" className='tall' />
         <img src={Popsalon4} alt="pop5" />
         <img src={Popsalon5} alt="pop6" className='wile'/>
         <img src={Popsalon6} alt="pop7" />
-        <img src={Popsalon7} alt="pop8" className='wile'/>
+        <img src={Popsalon7} alt="pop8" className='tall'/>
         <img src={Popsalon8} alt="pop9" />
-        <img src={Popsalon9} alt="pop10" className='tall'/>
+        <img src={Popsalon9} alt="pop10" className='wile'/>
         <img src={Popsalon10} alt="pop11" />
         <img src={Popsalon11} alt="pop12" className='tall'/>
     </div>

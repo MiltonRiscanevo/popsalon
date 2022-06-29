@@ -1,5 +1,6 @@
 .grid_container{
     width: 50%;
+    margin-left: 10px;
     display: grid;
     grid-template-columns: repeat(2, minmax(50%, 1fr));
     grid-auto-rows: minmax(200px, auto); 
@@ -13,12 +14,13 @@
     width: 100%;
     object-fit: contain;
     border-radius: 20px;
+ 
 }
 .wile{
     grid-column: span 2;
 }
 .tall{
-    grid-row: span3;
+    grid-row: span 2;
 }
 
 .biography{

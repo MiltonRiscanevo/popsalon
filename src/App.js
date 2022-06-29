@@ -1,20 +1,30 @@
 
 import './App.css';
 import Carrousel from './components/carrousel/Carrousel';
-import Auth from './components/gridImage/Auth';
-import Grid from './components/gridImage/Grid';
 import Navbar from './components/navbar/Navbar';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import ContactUs from './components/contact/ContactUs';
+import Music from "./components/images/fondo.mp3"
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Carrousel/>
-      <div className='section_1'>
-        <Grid/>
-        <Auth className='sub_2'/>
-      </div>
+      <audio controls autoPlay>
+        <source src={Music}/>
+      </audio>
       
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path='/contactus' element={<ContactUs/>}/>
+          <Route 
+          path='/' 
+          element={
+          <Carrousel/>
+          }/>
+        </Routes>
+        
+        </Router>  
     </div>
   );
 }

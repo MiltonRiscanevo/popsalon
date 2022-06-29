@@ -3,6 +3,8 @@ import './carrousel.css'
 import Images from '../images.json'
 import Izquierda from '../images/izquierda.svg'
 import Derecha from '../images/derecha.svg'
+import Auth from '../gridImage/Auth';
+import Grid from '../gridImage/Grid';
 //import { useEffect } from 'react'
 
 
@@ -72,9 +74,11 @@ const Carrousel = () => {
     
 
   return (
-    <div className='main'>
-        <h1>POP SALON BY JESE</h1>
-        <div className='carrousel_container' ref={slideshow}>
+    
+    <>
+        <div className='main'>
+            <h1>POP SALON BY JESE</h1>
+             <div className='carrousel_container' ref={slideshow}>
             {Images.map((item)=>(
                 <div key={item.id} className='slide'>
                     <h2 className='title_slide'>{item.title}</h2>
@@ -82,16 +86,23 @@ const Carrousel = () => {
                 </div>
             ))}
             
+            </div>
+            <div className='controls'>
+                <button className='Buttons izquierda' onClick={anterior} >
+                    <img src={Izquierda} alt='arrows' />
+                </button>
+                <button className='Buttons derecha' onClick={siguiente}> 
+                    <img src={Derecha} alt='arrows' />
+                 </button>
+            </div>
         </div>
-        <div className='controls'>
-            <button className='Buttons izquierda' onClick={anterior} >
-                <img src={Izquierda} alt='arrows' />
-            </button>
-            <button className='Buttons derecha' onClick={siguiente}> 
-                <img src={Derecha} alt='arrows' />
-            </button>
+    <div className='section_1'>
+          <Grid/>
+          <Auth className='sub_2'/>
         </div>
-    </div>
+
+    </>
+    
   )
 }
 
