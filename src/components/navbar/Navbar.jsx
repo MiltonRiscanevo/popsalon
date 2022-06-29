@@ -3,6 +3,8 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import './navbar.css'
 
+import Logo from "../images/logo.png"
+
 const Navbar = () => {
 
   const [clicked, setClicked] = useState(false)
@@ -12,14 +14,11 @@ const Navbar = () => {
   return (
     <>
        <header className='navbar_container'>
-        <div className='icons_navbar'>Icono</div>
+        <img src={Logo} className='icons_navbar'  alt="logo" />
         <div className={`container_options ${clicked ? 'active':'' } `}>
           <div>INICIO</div>
           <div>SERVICIOS</div>
-          <div>YESENIA</div>
           <div>GALERIA</div>
-          <div>BONO DE REGALO</div>
-          <div>KERATINA</div>
           <div>MANICURE</div>
           <div>CONTACTENOS</div>
         </div>

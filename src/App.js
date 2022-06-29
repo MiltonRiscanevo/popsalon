@@ -2,7 +2,7 @@
 import './App.css';
 import Carrousel from './components/carrousel/Carrousel';
 import Auth from './components/gridImage/Auth';
-import GridImage from './components/gridImage/GridImage';
+import Grid from './components/gridImage/Grid';
 import Navbar from './components/navbar/Navbar';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar/>
       <Carrousel/>
       <div className='section_1'>
-        <GridImage className='sub_1'/>
+        <Grid/>
         <Auth className='sub_2'/>
       </div>
       
